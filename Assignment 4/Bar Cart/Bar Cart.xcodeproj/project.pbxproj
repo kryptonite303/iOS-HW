@@ -15,6 +15,7 @@
 		72D67A961ADB17D300D9F3EE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72D67A941ADB17D300D9F3EE /* LaunchScreen.xib */; };
 		72D67AA21ADB17D300D9F3EE /* Bar_CartTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 72D67AA11ADB17D300D9F3EE /* Bar_CartTests.m */; };
 		72D67AAD1ADB2A6A00D9F3EE /* Drink.m in Sources */ = {isa = PBXBuildFile; fileRef = 72D67AAC1ADB2A6A00D9F3EE /* Drink.m */; };
+		72D67AB01ADB530F00D9F3EE /* Recipe.m in Sources */ = {isa = PBXBuildFile; fileRef = 72D67AAF1ADB530F00D9F3EE /* Recipe.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		72D67AA11ADB17D300D9F3EE /* Bar_CartTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bar_CartTests.m; sourceTree = "<group>"; };
 		72D67AAB1ADB2A6A00D9F3EE /* Drink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Drink.h; sourceTree = "<group>"; };
 		72D67AAC1ADB2A6A00D9F3EE /* Drink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Drink.m; sourceTree = "<group>"; };
+		72D67AAE1ADB530F00D9F3EE /* Recipe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recipe.h; sourceTree = "<group>"; };
+		72D67AAF1ADB530F00D9F3EE /* Recipe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Recipe.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +97,8 @@
 				72D67A851ADB17D300D9F3EE /* Supporting Files */,
 				72D67AAB1ADB2A6A00D9F3EE /* Drink.h */,
 				72D67AAC1ADB2A6A00D9F3EE /* Drink.m */,
+				72D67AAE1ADB530F00D9F3EE /* Recipe.h */,
+				72D67AAF1ADB530F00D9F3EE /* Recipe.m */,
 			);
 			path = "Bar Cart";
 			sourceTree = "<group>";
@@ -225,6 +230,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				72D67A8E1ADB17D300D9F3EE /* ViewController.m in Sources */,
+				72D67AB01ADB530F00D9F3EE /* Recipe.m in Sources */,
 				72D67A8B1ADB17D300D9F3EE /* AppDelegate.m in Sources */,
 				72D67AAD1ADB2A6A00D9F3EE /* Drink.m in Sources */,
 				72D67A881ADB17D300D9F3EE /* main.m in Sources */,
@@ -418,6 +424,7 @@
 				72D67AA71ADB17D300D9F3EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		72D67AA81ADB17D300D9F3EE /* Build configuration list for PBXNativeTarget "Bar CartTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +433,7 @@
 				72D67AAA1ADB17D300D9F3EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

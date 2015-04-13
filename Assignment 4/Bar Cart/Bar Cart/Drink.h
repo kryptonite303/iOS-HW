@@ -9,6 +9,16 @@
 #import <Foundation/Foundation.h>
 
 @interface Drink : NSObject
+
+@property (strong, nonatomic) NSString *drinkName;
+@property (strong, nonatomic) NSString *drinkSubname;
+@property (strong, nonatomic) NSString *notes;
+@property int inventoryCount;
+@property int servingCount;
+@property int recipeServingCount;
+@property int ratingStars;
+@property int usageCount;
+
 -(void) incrementInventoryCount: (int) incrementBy;
 -(void) decrementInventoryCount: (int) decrementBy;
 

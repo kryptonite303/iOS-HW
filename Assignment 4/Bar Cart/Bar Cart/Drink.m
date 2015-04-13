@@ -9,6 +9,11 @@
 #import "Drink.h"
 
 @implementation Drink
-
+-(void) incrementInventoryCount:(int)incrementBy {
+    self.inventoryCount += incrementBy;
+}
+-(void) decrementInventoryCount:(int)decrementBy {
+    self.inventoryCount -= decrementBy;
+}
 
 @end

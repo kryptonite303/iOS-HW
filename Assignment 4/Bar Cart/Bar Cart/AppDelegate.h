@@ -15,7 +15,6 @@
 @property (strong, nonatomic) NSMutableArray *searchCategoryArray;
 @property (strong, nonatomic) NSMutableArray *searchRecipeArray;
 @property (strong, nonatomic) NSMutableArray *inventoryArray;
-@property (strong, nonatomic) 
 
 @end
 
