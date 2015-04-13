@@ -11,7 +11,11 @@
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-
+@property (strong, nonatomic) NSMutableArray *favoritesArray;
+@property (strong, nonatomic) NSMutableArray *searchCategoryArray;
+@property (strong, nonatomic) NSMutableArray *searchRecipeArray;
+@property (strong, nonatomic) NSMutableArray *inventoryArray;
+@property (strong, nonatomic) 
 
 @end
 
